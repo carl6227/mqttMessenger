@@ -1,7 +1,7 @@
 
  
  .modal-header {
-     background-color: palevioletred;
+
      color: white;
  }
  
@@ -19,7 +19,8 @@
  }
 
  ion-icon {
-    font-size: 35px;
+    font-size: 37px;
+   color: white;
   }
 
   .sendWrapper{
@@ -29,6 +30,8 @@
      text-align: right;
      box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
      padding: 5px;
+     margin-right: 60px;
+   
  }
  .recieveWrapper{
     background-color:#87d4f5;
@@ -36,15 +39,23 @@
     margin-top:20px;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     padding: 5px;
+    margin-left: 60px;
+
 }
-span{
+.span{
 font-size: 12px;
     float:right;
+    margin-right: 60px;
 }
 .text{
 margin-top:-19px;
     font-size: 12px;
 }
+.text2{
+    margin-top:-19px;
+        font-size: 12px;
+        margin-left: 60px;
+    }
 .payload{
 position:relative;
 
@@ -53,3 +64,16 @@ img{
     margin-top: 40px;
     width: 90%;
 }
+.user1{
+
+width: 50px;
+float: right;
+margin-top: -69px;
+
+}
+.user2{
+
+    width: 50px;
+    float: left;
+  margin-top: 12px;
+    }
