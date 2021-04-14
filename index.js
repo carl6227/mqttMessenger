@@ -14,7 +14,7 @@ $("#connectBtn").on('click', function () {
     $("#pub-button").on('click', () => {
 
         client.publish($('#pubTopic').val(), $('#pubMessage').val())
-        $('.messageWrapper').append(' <div class="col-sm-10 float-right">  <p class="payload sendWrapper">'+$('#pubMessage').val()+'</p> <p class="text">'+"you"+'<span class="span">'+new Date().toLocaleTimeString()+' </span> </p>  <img class="user1" src="profile.png"></div> ')
+        $('.messageWrapper').append(' <div class="col-sm-8 float-right">  <p class="payload sendWrapper">'+$('#pubMessage').val()+'</p> <p class="text">'+"you"+'<span class="span">'+new Date().toLocaleTimeString()+' </span> </p>  <img class="user1" src="profile.png"></div> ')
         $('#pubMessage').val("");
         $('#img').hide()
     })
@@ -28,7 +28,7 @@ pubTopic = $("#pubTopic").val();
 message = $("#pubMessage").val();
 client.on('message', function (pubTopic, message) {
     $('#img').hide();
-    $('.messageWrapper').append(' <div class="col-sm-10 float-left" > <img  class="user2"src="man.png"><p class="payload recieveWrapper">' + message.toString() + '</p><p class="text2">' + pubTopic +'<span class="float-right">'+new Date().toLocaleTimeString() +'</span></p> </div>')
+    $('.messageWrapper').append(' <div class="col-sm-8 float-left" > <img  class="user2"src="man.png"><p class="payload recieveWrapper">' + message.toString() + '</p><p class="text2">' + pubTopic +'<span class="float-right">'+new Date().toLocaleTimeString() +'</span></p> </div>')
 })
 
 
