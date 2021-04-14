@@ -16,6 +16,11 @@
  .messageWrapper{
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 3px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
     background-color: white;
+   white-space: pre-wrap;      
+   white-space: -moz-pre-wrap;
+   white-space: -pre-wrap;      
+   white-space: -o-pre-wrap;  
+   word-wrap: break-word;      
  }
 
  ion-icon {
@@ -25,11 +30,7 @@
 
   .sendWrapper{
   
-   white-space: pre-wrap;      
-   white-space: -moz-pre-wrap;
-   white-space: -pre-wrap;      
-   white-space: -o-pre-wrap;  
-   word-wrap: break-word;      
+  
 
      background-color:#ffb6c1;
      border-radius:5px;
@@ -41,12 +42,6 @@
    
  }
  .recieveWrapper{
-   white-space: pre-wrap;      
-   white-space: -moz-pre-wrap;
-   white-space: -pre-wrap;      
-   white-space: -o-pre-wrap;  
-   word-wrap: break-word;      
-
     background-color:#87d4f5;
     border-radius:5px;
     margin-top:20px;
