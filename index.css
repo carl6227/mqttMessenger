@@ -16,12 +16,10 @@
  .messageWrapper{
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 3px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
     background-color: white;
-   white-space: pre-wrap;      
-   white-space: -moz-pre-wrap;
-   white-space: -pre-wrap;      
-   white-space: -o-pre-wrap;  
-   word-wrap: break-word;      
+    
+     
  }
+
 
  ion-icon {
     font-size: 37px;
@@ -30,59 +28,74 @@
 
   .sendWrapper{
   
-  
-     width:100%;
-     background-color:#ffb6c1;
-     border-radius:5px;
-     margin-top:20px;
-     text-align: right;
-     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-     padding: 5px;
-     margin-right: 60px;
+    white-space: pre-wrap;      
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;      
+    white-space: -o-pre-wrap;  
+    word-wrap: break-word;    
+    width:100%;
+    background-color:#f58b82;
+    border-radius:7% 19% 30% 7% / 50% 100% 0% 60%   ;
+    margin-top:20px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding: 5px;
+    margin-left: -60px;
+    text-align: right;-
+
+
+
    
  }
  .recieveWrapper{
-  width:100%;
+    white-space: pre-wrap;      
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;      
+    white-space: -o-pre-wrap;  
+    word-wrap: break-word;    
+    width:100%;
     background-color:#87d4f5;
-    border-radius:5px;
+    border-radius:19% 7% 7% 0% / 95% 46% 54% 0%  ;
     margin-top:20px;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     padding: 5px;
     margin-left: 60px;
 
 }
-.span{
-font-size: 12px;
-    float:right;
-    margin-right: 60px;
-}
+
 .text{
-margin-top:-19px;
-    font-size: 12px;
+    margin-top:-19px;
+    float:right;
+    margin-right:60px;
+    font-size: 10px;
+    text-align:left;
 }
 .text2{
-    margin-top:-19px;
-        font-size: 12px;
+        margin-top:-19px;
+        font-size: 10px;
         margin-left: 60px;
+        text-align: left;
     }
-.payload{
-position:relative;
 
-}
-img{
-    margin-top: 40px;
+#img{
+   margin-top:40px;
     width: 90%;
 }
 .user1{
 
 width: 50px;
 float: right;
-margin-top: -69px;
+margin-top: 12px;
+    
+
+
 
 }
 .user2{
-
+    
     width: 50px;
     float: left;
-  margin-top: 12px;
-    }
+    
+    margin-top: 12px;
+    
+}
+
