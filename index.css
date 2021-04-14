@@ -31,7 +31,7 @@
   .sendWrapper{
   
   
-     width:100%;
+     width:50%;
      background-color:#ffb6c1;
      border-radius:5px;
      margin-top:20px;
@@ -42,7 +42,7 @@
    
  }
  .recieveWrapper{
-  width:1005;
+  width:100%;
     background-color:#87d4f5;
     border-radius:5px;
     margin-top:20px;
